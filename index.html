@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 questions</title>
+    <script src="lab4 practice.js"></script>
+    <style>
+        .sections{text-align: center; font-family: Arial; color: rgb(8, 38, 113);}
+        .inputBox{width: 230px;}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; text-decoration: underline; color: rgb(9, 9, 91);">These are Lab 4 practice questions</h1> <br>
+    <hr>
+    <div class="sections">
+        <h2>Odd or Even</h2>
+        <input type="number" class="inputBox" id="numOddEven" placeholder="Enter Number to check Odd/Even">
+        <button onclick="checkOddOrEven ()">Check Odd or Even</button> <br>
+        <p id="resultOddEven"></p>
+        <br>
+        <hr>
+    </div>
+    <div class="sections">
+        <h2>Largest of Three Numbers</h2>
+        <input type="number" class="inputBox" id="Q2num1" placeholder="Enter first number">
+        <input type="number" class="inputBox" id="Q2num2" placeholder="Enter second number">
+        <input type="number" class="inputBox" id="Q2num3" placeholder="Enter third number">
+        <button onclick="largestNum()">Find largest num</button>
+        <div id="largestNumResult"></div>
+        <br>
+        <hr>
+    </div>
+    <div class="sections">
+        <h2>Fibonacci Series</h2>
+        <input type="number" class="inputBox" id="numberOfFiboTerms" placeholder="Enter no of terms">
+        <button onclick="createFiboSeries()">Create Fibonacci Series</button>
+        <p id="fiboResult"></p>
+        <br>
+        <hr>
+    </div>
+    <div class="sections">
+        <h2>String Change</h2>
+        <input type="text" class="inputBox" id="stringToChange" placeholder="Enter the text to change">
+        <input type="text" class="inputBox" id="charToReplace" placeholder="Enter the character to replace">
+        <input type="text" class="inputBox" id="newChar" placeholder="Enter the new character">
+        <button onclick="replaceChar()">Click to change character</button>
+        <p id="newStrResult"></p>
+        <br>
+        <hr>
+    </div>
+    <div class="sections">
+        <h2>Palindrome Check</h2>
+        <input type="number" class="inputBox" id="noForPalindrome" placeholder="Enter 3 digit no. to check palindrome">
+        <button onclick="checkPalindrome()">Click to check palindrome</button>
+        <p id="resultPalindrome"></p>
+        <br>
+        <hr>
+    </div>
+    <div class="sections">
+        <h2>Number of Vowels</h2>
+        <input type="text" class="inputBox" id="textToCountVowels" placeholder="Enter text to count vowels">
+        <button onclick="countVowels()">Click to count no. of vowels</button>
+        <p id="resultCountVowels"></p>
+        <br>
+        <hr>
+    </div>
+    <footer style="text-align: center;">Lab assignment completed by Akshit Verma for NJIT Web Systems Development course</footer>
+
+</body>
+</html>
